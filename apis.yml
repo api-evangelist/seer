@@ -1,8 +1,25 @@
 aid: seer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seer.png
 name: Seer
-description: 'Seer is a company surfaced as a portfolio company of softbank-vision-fund, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Seer, Inc. (NASDAQ: SEER) is a Redwood City, California life-sciences
+  company pioneering proteomics, the large-scale study of proteins. Its Proteograph
+  Product Suite pairs engineered nanoparticles with automated sample preparation and
+  mass spectrometry to profile tens of thousands of proteins across biological samples
+  at scale, and its cloud-based Proteograph Analysis System (PAS) software processes
+  and interprets the resulting proteomic data for pharmaceutical, biopharma, and academic
+  research. Seer exposes no public developer API; its software surface is the login-gated
+  PAS platform delivered to customers of the Proteograph suite.'
 url: https://raw.githubusercontent.com/api-evangelist/seer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health Tech
+- Proteomics
+- Life Sciences
+- Biotechnology
+- Mass Spectrometry
+- Research Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://seer.bio/
+- type: GettingStarted
+  url: https://seer.bio/getting-started/
+- type: Login
+  url: https://pas.seer.software
+- type: Support
+  url: https://seer.bio/locations-contact-us
+- type: Blog
+  url: https://seer.bio/newsroom/
+- type: PrivacyPolicy
+  url: https://seer.bio/privacy-policy/
+- type: TermsOfService
+  url: https://seer.bio/terms-of-use/
+- type: DomainSecurity
+  url: security/seer-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
